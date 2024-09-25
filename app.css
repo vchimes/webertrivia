@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playarea {
+  background-color: green;
+  border: 10px solid black;
+  border-radius: 20px;
+  height: 600px;
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.playarea div {
+  margin: 20px 0;
+}
+
+.user {
+  display: inline-block;
+}
