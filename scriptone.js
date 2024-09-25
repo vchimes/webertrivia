@@ -15,7 +15,7 @@ const gameOver = function () {
 const check = document
   .querySelector(".check")
   .addEventListener("click", function () {
-    const guess = document.querySelector(".guess").value.toLowerCase();
+    const guess = document.querySelector(".guess").value.trim().toLowerCase();
     console.log(guess);
 
     if (!guess) {
